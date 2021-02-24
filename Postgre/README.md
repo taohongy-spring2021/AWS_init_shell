@@ -6,8 +6,12 @@ After install postgre, run the following command for initial postgre premission:
 
 # Create user
 
-sudo -i -u postgres
-psql
-create user declan with password '****';
-create database csye6225_db;
-grant all on database csye6225_db to declan;
+> sudo -i -u postgres
+
+> psql
+
+> create user declan with password '****';
+
+> create database csye6225_db;
+
+> grant all on database csye6225_db to declan;
