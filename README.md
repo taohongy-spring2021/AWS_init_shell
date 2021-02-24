@@ -10,6 +10,6 @@ sudo sh ./config_po:wqstgre.sh
 
 sudo -i -u postgres
 psql
-create user declan with password '123456cs';
+create user declan with password '******';
 create database csye6225_db;
 grant all on database csye6225_db to declan;
